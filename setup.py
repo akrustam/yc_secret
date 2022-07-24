@@ -15,7 +15,7 @@ if sys.argv[-1] == 'publish':
 packages = ['yc_secret']
 
 requires = [
-    'aiohttp>=3.7.0,<=3.8.1; python_version >= "3"',
+    'aiohttp>=3.7.0; python_version >= "3"',
 ]
 
 about = {}
